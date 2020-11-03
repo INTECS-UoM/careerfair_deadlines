@@ -5,7 +5,7 @@
 }
 
 .event1,
-.event2, .event3 {
+.event2, .event3, .event4{
   position: relative;
 }
 
@@ -24,11 +24,12 @@
   position: absolute;
   background-color: rgba(158, 158, 158, 0.1);
   width: 139px;
-  height: 100px;
+  height: fit-content;
   left: -105px;
   top: 33px;
   border-radius: 5px;
-  box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64)
+  box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64);
+  padding-bottom:10px
 }
 
 .event1Bubble:after,
@@ -59,7 +60,7 @@
 }
 
 .event2Bubble:before {
-  bottom: 100px;
+  top: -12px;
   left: 103px;
   border-top-color: rgba(222, 222, 222, 0.66);
   border-width: 12px;
@@ -71,7 +72,7 @@
 }
 
 .event2Bubble:after {
-  bottom: 100px;
+  top: -12px;
   left: 103px;
   border-top-color: #F6F6F6;
   border-width: 12px;
@@ -128,7 +129,7 @@
   font-size: 8px;
   margin-top: -3px;
   margin-left: -5px;
-  color: #9E9E9E;
+  color: black;
 }
 
 .eventAuthor {
