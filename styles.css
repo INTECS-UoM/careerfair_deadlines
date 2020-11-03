@@ -59,7 +59,7 @@
 }
 
 .event2Bubble:before {
-  bottom: 59px;
+  bottom: 100px;
   left: 103px;
   border-top-color: rgba(222, 222, 222, 0.66);
   border-width: 12px;
