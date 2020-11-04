@@ -8,6 +8,17 @@ ul.timeline {
   color: #db0000
 }
 
+.timelineTitle2{
+  font-weight: 750;
+  color: #028a0f
+}
+
+.timelineTitle3{
+  font-weight: 750;
+  color: #f81894
+}
+
+
 ul.timeline:before {
   content: ' ';
   background: #d4d9df;
