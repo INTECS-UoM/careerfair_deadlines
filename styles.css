@@ -2,6 +2,12 @@ ul.timeline {
   list-style-type: none;
   position: relative;
 }
+
+.timelineTitle{
+  font-weight: 750;
+  color: #db0000
+}
+
 ul.timeline:before {
   content: ' ';
   background: #d4d9df;
