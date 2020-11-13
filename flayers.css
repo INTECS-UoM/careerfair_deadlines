@@ -146,7 +146,20 @@ display:none;
 	background: rgba(255,255,255,0);
 }
 
+.bckgnd-jr {
+	height: 100vh;
+	background-image: url('gray-concrete-wall.jpg');
+	background-size: cover;
+}
 
+.bckgrnd-charactr-jr {
+	background-image: url('pngweb.png');
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: bottom;
+	height: 100%;
+}
 /* * {
 	box-sizing: border-box;
   } */
