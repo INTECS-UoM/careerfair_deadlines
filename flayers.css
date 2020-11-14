@@ -139,7 +139,8 @@
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
-  height: 100%;
+  background-attachment: local;
+  min-height: 100%;
 }
 /* * {
 	box-sizing: border-box;
@@ -174,3 +175,17 @@
 	  margin-bottom: 20px;
 	}
   } */
+
+.linkStyl {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.linkStyl-2 {
+  color: rgb(190, 189, 189) !important;
+  text-decoration: none !important;
+}
+
+.linkStyl:hover {
+  color: rgb(255, 221, 28) !important;
+}

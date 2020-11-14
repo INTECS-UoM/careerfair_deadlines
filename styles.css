@@ -40,7 +40,7 @@ ul.timeline {
 
 ul.timeline:before {
   content: ' ';
-  background: #d4d9df;
+  background: #12171f;
   display: inline-block;
   position: absolute;
   left: 29px;
@@ -54,11 +54,11 @@ ul.timeline > li {
 }
 ul.timeline > li:before {
   content: ' ';
-  background: white;
+  background: #ffffff;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid #22c0e8;
+  border: 4px solid#ffc300;
   left: 20px;
   width: 20px;
   height: 20px;
@@ -74,35 +74,30 @@ a.disabled {
   text-decoration: none !important;
 }
 
+.linkStyl-2 {
+  color: rgb(190, 189, 189) !important;
+  text-decoration: none !important;
+}
+
 .linkStyl:hover {
   color: rgb(255, 221, 28) !important;
 }
 
-.bckgnd-jr {
+.bckgnd-indx-jr {
   height: 100vh;
   background-image: url("gray-concrete-wall-vr.jpg");
   background-size: cover;
 }
 
-.bckgrnd-charactr-jr {
+/* .bckgrnd-charactr-jr {
   background-image: url("pngweb.png");
   background-size: 35%;
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
   height: 100%;
-}
+} */
 
-* {
-  box-sizing: border-box;
-}
-body {
-  background-color: #fafafa;
-}
-.container {
-  margin: 100px auto;
-  width: 809px;
-}
 .light {
   background-color: #fff;
 }
@@ -128,15 +123,13 @@ body {
   margin: 20px 0 40px;
 }
 .cl_plan {
-  width: 100%;
-  height: 140px;
-  background-image: linear-gradient(-222deg, #ff8494, #ffa9b7);
-  box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(-222deg, #12171f, #212936);
+  /* box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.75); */
   padding: 30px;
   color: #fff;
 }
 .cl_copy {
-  font-size: 20px;
+  font-size: 25px;
   margin: 20px 0;
   display: inline-block;
 }
@@ -152,25 +145,25 @@ body {
   padding: 11px 13px;
 }
 .calendar_events {
-  color: #a39d9e;
+  color: #858585;
 }
 .ce_title {
   font-size: 14px;
 }
 .event_item {
-  margin: 18px 0;
+  margin: 5px 0;
   padding: 5px;
   cursor: pointer;
 }
 .event_item:hover {
-  background-image: linear-gradient(-222deg, #ff8494, #ffa9b7);
-  box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(-222deg, #ffc300, #f8cf48);
+  box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.25);
 }
 .event_item:hover .ei_Dot {
-  background-color: #fff;
+  background-color: #12171f;
 }
 .event_item:hover .ei_Copy, .event_item:hover .ei_Title {
-  color: #fff;
+  color: #12171f;
 }
 .ei_Dot, .ei_Title {
   display: inline-block;
@@ -199,4 +192,8 @@ body {
 }
 .dark .header_title, .dark .ei_Title, .dark .ce_title {
   color: #fff;
+}
+
+.crd-bck {
+  background-color: #ffffffce;
 }
