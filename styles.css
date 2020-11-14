@@ -69,3 +69,26 @@ a.disabled {
   pointer-events: none;
   cursor: default;
 }
+.linkStyl {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.linkStyl:hover {
+  color: rgb(255, 221, 28) !important;
+}
+
+.bckgnd-jr {
+  height: 100vh;
+  background-image: url("gray-concrete-wall-vr.jpg");
+  background-size: cover;
+}
+
+.bckgrnd-charactr-jr {
+  background-image: url("pngweb.png");
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  height: 100%;
+}
