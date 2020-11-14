@@ -65,6 +65,10 @@ ul.timeline > li:before {
   z-index: 400;
 }
 
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
 .linkStyl {
   color: white !important;
   text-decoration: none !important;
