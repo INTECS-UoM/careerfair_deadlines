@@ -37,17 +37,14 @@
 			<div class="col-12">
 				<div class="card crd-bck p-3 mt-4">
 					<div class="">
-						<h5> 📢 Remainder</h5>
-						<hr>
+						<h5 class="float-left mb-0"> 📢 Remainder</h5>
+						<h6 class="float-right mb-0 mt-1">Today - <span id="date"></span></h6>
 					</div>
-
+					<hr>
 					<div class="row">
 						<div class="col-md-6">
 							<div class="card" style="height: 100%; overflow: hidden;">
 								<div class="cl_plan">
-									<h5>Today</h5>
-									<span id="date"></span>
-									<hr style="background-color: #ffffff2a;">
 									<div class="calendar_events">
 										<div class="event_item">
 											<table style="width: 100%;">
@@ -57,18 +54,19 @@
 															<div class="">👉</div>
 														</td>
 														<td>
-															<div class="ei_Title-2">2020 November 15 - 06.00 PM | Virtusa - Send CV </div>
-															<div class="ei_Copy">
-																<a
-																	href="https://docs.google.com/forms/d/e/1FAIpQLSeLg7Zs532g1jnONNsCg6GKxCy-Orv0BftSiWNn1-yS-oJPIg/viewform">CV
-																	upload link</a>
+															<div class="ei_Title-2">2020 November 21 | End date for doc review and return for the
+																students.
 															</div>
+															<!-- <div class="ei_Copy">
+																<a href="https://forms.gle/gqBEa97YNfQYgPw9A">Upload
+																	Link</a>
+															</div> -->
 														</td>
 													</tr>
 												</tbody>
 											</table>
 										</div>
-										<div class="event_item">
+										<!-- <div class="event_item">
 											<table style="width: 100%;">
 												<tbody>
 													<tr>
@@ -76,39 +74,26 @@
 															<div class="">👉</div>
 														</td>
 														<td>
-															<div class="ei_Title-2">2020 November 15 - 07.00 PM | WSO2 - Send CV </div>
+															<div class="ei_Title-2">2020 November 21 | End date for doc
+																review and return for the
+																students
+															</div>
 															<div class="ei_Copy">
-																<a href="https://forms.gle/Z3aMgkAxnC6MGeZq6">CV upload link</a>
+																<a href="https://forms.gle/gqBEa97YNfQYgPw9A">Upload
+																	Link</a>
 															</div>
 														</td>
 													</tr>
 												</tbody>
 											</table>
-										</div>
-										<div class="event_item">
-											<table style="width: 100%;">
-												<tbody>
-													<tr>
-														<td style="vertical-align: top;">
-															<div class="">👉</div>
-														</td>
-														<td>
-															<div class="ei_Title-2">2020 November 15 - 08.00 PM | Pearson - Send CV </div>
-															<div class="ei_Copy">
-																<a href="https://forms.gle/WBMAMqLYZLPxaUvUA">CV upload link</a>
-															</div>
-														</td>
-													</tr>
-												</tbody>
-											</table>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="calendar_events">
-								<h6 class="mb-2 mt-3">Upcoming Events</h6>
+								<!-- <h6 class="mb-2 mt-3">Upcoming Events</h6>
 								<div class="event_item">
 									<table style="width: 100%;">
 										<tbody>
@@ -119,49 +104,16 @@
 												<td>
 													<div class="ei_Title">Pending... </div>
 													<div class="ei_Copy">
-														<!-- <a
+														<a
 															href="https://docs.google.com/forms/d/e/1FAIpQLSeLg7Zs532g1jnONNsCg6GKxCy-Orv0BftSiWNn1-yS-oJPIg/viewform">CV
-															upload link</a> -->
+															upload link</a>
 													</div>
 												</td>
 											</tr>
 										</tbody>
 									</table>
-								</div>
-								<div class="event_item">
-									<table style="width: 100%;">
-										<tbody>
-											<tr>
-												<td style="vertical-align: top; width: 30px;">
-													<div class="">👉</div>
-												</td>
-												<td>
-													<div class="ei_Title">Pending... </div>
-													<div class="ei_Copy">
-														<!-- <a href="https://forms.gle/Z3aMgkAxnC6MGeZq6">CV upload link</a> -->
-													</div>
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-								<div class="event_item">
-									<table style="width: 100%;">
-										<tbody>
-											<tr>
-												<td style="vertical-align: top; width: 30px;">
-													<div class="">👉</div>
-												</td>
-												<td>
-													<div class="ei_Title">Pending... </div>
-													<div class="ei_Copy">
-														<!-- <a href="https://forms.gle/WBMAMqLYZLPxaUvUA">CV upload link</a> -->
-													</div>
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
+								</div> -->
+
 								<h6 class="mb-2 mt-3">Countdown</h6>
 								<div class="" style="color: #12171f;">
 									<h3 class="ml-2"><span id="countdown"></span></h3>
@@ -238,7 +190,7 @@
 
 					<tr>
 						<td>
-							<p class="tableContent">Special Company Requiest 99x</p>
+							<p class="tableContent">Special Company Requiest</p>
 						</td>
 						<td>
 							<p class="tableContent">CV review and collecting process</p>
@@ -345,13 +297,14 @@
 					<li>
 						<span class="timelineTitle">2020 November 15 | Global Technologies - Send CV </span>
 						<p>Plan to send CV on November 15 at 11.59 AM</p>
-						<p><a href="https://forms.gle/cnWN3gbQevP5EPHh9">CV upload link</a></p>
+						<p><a class="disabled" href="https://forms.gle/cnWN3gbQevP5EPHh9">CV upload link</a> CVs
+							Already Sent </p>
 					</li>
 
 					<li>
 						<span class="timelineTitle3">2020 November 15 | CV Collection of All student
 							(without photo) </span>
-						<p>at 2.00 PM</p>
+						<p>at 11.00 PM</p>
 						<p><a href="https://forms.gle/gqBEa97YNfQYgPw9A">Upload
 								Link</a></p>
 						<p><a
@@ -362,27 +315,37 @@
 					<li>
 						<span class="timelineTitle">2020 November 15 | Virtusa - Send CV</span>
 						<p>Plan to send CV on November 15 at 06.00 PM</p>
-						<p><a
-								href="https://docs.google.com/forms/d/e/1FAIpQLSeLg7Zs532g1jnONNsCg6GKxCy-Orv0BftSiWNn1-yS-oJPIg/viewform">CV
-								upload link</a></p>
+						<p><a class="disabled"
+								href="https://docs.google.com/forms/d/e/1FAIpQLSeLg7Zs532g1jnONNsCg6GKxCy-Orv0BftSiWNn1-yS-oJPIg/viewform">
+								CV upload link</a> CVs
+							Already Sent</p>
 						<p><a href="https://tinyurl.com/y52jccrb">View your responses</a></p>
 					</li>
 
 					<li>
 						<span class="timelineTitle">2020 November 15 | WSO2 - Send CV </span>
 						<p>Plan to send CV on November 15 at 07.00 PM</p>
-						<p><a href="https://forms.gle/Z3aMgkAxnC6MGeZq6">CV upload link</a></p>
+						<p><a class="disabled" href="https://forms.gle/Z3aMgkAxnC6MGeZq6">CV upload link</a> CVs
+							Already Sent</p>
 						<p><a href="https://tinyurl.com/y52jccrb">View your responses</a></p>
 					</li>
 
 					<li>
 						<span class="timelineTitle">2020 November 15 | Pearson - Send CV </span>
 						<p>Plan to send CV on November 15 at 08.00 PM</p>
-						<p><a href="https://forms.gle/WBMAMqLYZLPxaUvUA">CV upload link</a></p>
+						<p><a class="disabled" href="https://forms.gle/WBMAMqLYZLPxaUvUA">CV upload link</a> CVs
+							Already Sent</p>
 						<p><a href="https://tinyurl.com/y3dg542d">View your responses</a></p>
 					</li>
 
 					<li>
+						<span class="timelineTitle">2020 November 17 | WSO2 - Research Engineer Only </span>
+						<p>Plan to send CV on November 17 at 04.00 PM</p>
+						<p><a href="https://forms.gle/P1RBaYYrDLhgdmLs8">CV upload link</a></p>
+						<p><a href="https://tinyurl.com/y4gq3am7">View your responses</a></p>
+					</li>
+
+					<li class="actv-clr">
 						<span class="timelineTitle3">2020 November 21 | End date for doc review and return for the
 							students </span>
 						<p></p>
