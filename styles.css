@@ -34,6 +34,11 @@ ul.timeline {
   color: purple
 }
 
+.timelineTitle5{
+  font-weight: 750;
+  color: gray
+}
+
 .faq{
   font-weight: 750;
 }
